@@ -19,10 +19,22 @@ It classifies tweets into **Positive** or **Negative** sentiments using **Python
 ## 📂 Project Structure
 ```bash
 
-├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks for analysis
-├── sentiment_model.py # Main training script
+├── data/
+│   ├── twitter_training.csv
+│   └── twitter_validation.csv
+│
+├── notebooks/
+│   └── Sentiment_Analysis.ipynb    # Main Jupyter Notebook (all steps inside)
+│
+├── models/
+│   └── sentiment_model.h5          # Saved trained model
+│
+├── outputs/
+│   └── confusion_matrix.png        # Evaluation result
+│
+├── requirements.txt
 └── README.md
+
 ```
 ## 📊 Results
 - Accuracy: ~80%  
